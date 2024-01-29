@@ -4,16 +4,13 @@ on:
     branches:
       - main
 
-permissions:
-  contents: write
-
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
+
 permissions: {}
 
 jobs:
   build:
-    if: github.repository == 'JirAcheron/my-test-module'
     permissions:
       contents: write
       pull-request: write
