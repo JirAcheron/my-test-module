@@ -1,0 +1,17 @@
+{
+  "name": "my-package",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts-resolve --minify --clean --sourcemap --legacy-output",
+    "dev": "tsup src/index.ts --format cjs,esm --dts-resolve --watch --sourcemap --legacy-output",
+    "lint": "tsc"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.27.1",
+    "tsup": "^8.0.1",
+    "typescript": "^5.3.3"
+  }
+}
