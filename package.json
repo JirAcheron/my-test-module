@@ -8,6 +8,7 @@
   "scripts": {
     "build": "tsup src/index.ts --format cjs,esm --dts-resolve --minify --clean --sourcemap --legacy-output",
     "dev": "tsup src/index.ts --format cjs,esm --dts-resolve --watch --sourcemap --legacy-output",
+    "release": "pnpm run build && changeset publish",
     "lint": "tsc"
   },
   "devDependencies": {
