@@ -7,13 +7,12 @@ on:
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
 
-permissions: {}
+permissions:
+  contents: write
+  pull-request: write
 
 jobs:
   build:
-    permissions:
-      contents: write
-      pull-request: write
     name: Release
     runs-on: ubuntu-latest
     steps:
