@@ -1,5 +1,11 @@
 # my-package
 
+## 0.0.5
+
+### Patch Changes
+
+- 88c6f9f: scope package
+
 ## 0.0.4
 
 ### Patch Changes
