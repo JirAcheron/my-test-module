@@ -1,5 +1,11 @@
 # my-package
 
+## 0.0.7
+
+### Patch Changes
+
+- 11b04e1: change scope
+
 ## 0.0.6
 
 ### Patch Changes
