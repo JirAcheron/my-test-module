@@ -1,6 +1,6 @@
 {
   "name": "my-package-1337",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "license": "MIT",
   "main": "dist/index.js",
   "module": "dist/esm/index.js",
