@@ -1,5 +1,11 @@
 # my-package
 
+## 0.0.4
+
+### Patch Changes
+
+- 352c72c: add multiplication capabilities
+
 ## 0.0.3
 
 ### Patch Changes
