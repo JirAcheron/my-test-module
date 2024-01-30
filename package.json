@@ -2,7 +2,11 @@
   "name": "@jirach/my-package",
   "version": "0.0.6",
   "license": "MIT",
+  "author": "jirach >_<",
   "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "dist/index.js",
   "module": "dist/esm/index.js",
   "types": "dist/index.d.ts",
