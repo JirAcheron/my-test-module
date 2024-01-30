@@ -1,5 +1,11 @@
 # my-package
 
+## 0.0.6
+
+### Patch Changes
+
+- c3afbd6: divide
+
 ## 0.0.5
 
 ### Patch Changes
